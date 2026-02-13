@@ -1,1 +1,31 @@
-.experiment-section{
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pinyon+Script&display=swap');
+
+h1 {
+    font-family: 'pinyon script', sans-serif;
+    color: #660000;
+    text-align: center;
+    font-size: 40px;
+}
+.experiment-section {
+    background: #2a2a2a;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    box-shadow: 0 4px 15px rgba(194, 58, 58, 0.3);
+}
+
+.caption {
+    text-align: center;
+    margin-top: 1rem;
+    color: #888;
+}
+
+.anim-box {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    border-radius: 15px;
+    margin: 0 auto;
+    animation: floatAndSpin 3s ease-in-out infinite;
+}
